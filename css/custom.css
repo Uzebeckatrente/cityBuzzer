@@ -1,0 +1,134 @@
+.customInput{
+	width:100%;
+	padding-bottom: 30px;
+	/*border-bottom: 30px solid white;*/
+	margin-top: 12px;
+	position: relative;
+    /* left: 5%; */
+    width: 90%;
+    border-radius: 3px;
+}
+
+.customInputHeader{
+    /*width: 90%;*/
+    position: relative;
+    /*left: 5%;*/
+    text-align: center;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+.customInputContainer{
+	height:197px !important;
+    border: 10px solid rgba(216, 207, 205,0.8) !important;
+    margin: 0 auto !important;
+    border-radius: 4px;
+}
+
+.customInputHeader{
+	background-color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.customInputHeader h1{
+	left: 5%;
+    position: relative;
+    width: 90%;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#latestTweets{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.map {
+	width:100%;	
+	height: 100%;
+
+}
+.mapHolder h1{
+    height: 40px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: -3px;
+}
+
+.mapHolder{
+	height: 400px;
+	width: 45%;
+	float:left;
+	margin:2%;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding-top: 8px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+}
+
+.go{
+	width: 100%;
+    height: 101%;
+    font-size: 60px;
+    background: green;
+    border-radius: 20px;
+    border: 2px;
+}
+
+.goHolder{
+	width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.dropdown ol{
+	margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.mainTweetHeader{
+    max-width:80%;
+}
